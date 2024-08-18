@@ -49,7 +49,7 @@ export default function Signin() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#0F007D',
+        backgroundColor: '#000070',
     },
     containerHeader: {
         marginTop: '14%',
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
         fontSize: 16
     },
     button: {
-        backgroundColor: '#0F007D',
+        backgroundColor: '#000070',
         width: '100%',
         borderRadius: 4,
         paddingVertical: 12, // Ajustado para 12 para corresponder ao paddingVertical do input

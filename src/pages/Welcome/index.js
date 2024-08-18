@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     },
     containerForm:{
         flex:1,
-        backgroundColor: '#0F007D',
+        backgroundColor: '#000070',
         borderTopLeftRadius: 25,
         borderTopRightRadius: 25,
         paddingStart: '5%',
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     },
     buttonText:{
         fontSize: 18,
-        color: '#0F007D',
+        color: '#000070',
         fontWeight: 'bold'
     }
 })

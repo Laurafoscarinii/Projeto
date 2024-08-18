@@ -1,21 +1,22 @@
-//<>
-import { StatusBar } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { View, StyleSheet } from 'react-native';
 import React from 'react';
-
-
-
-import { NavigationContainer } from '@react-navigation/native'
+import { NavigationContainer } from '@react-navigation/native';
 import Routes from './src/routes';
 
-
-export default function App() {
+function App() {
   return (
     <NavigationContainer>
-      <StatusBar backgroundColor="#0F007D" barStyle="light-content" ></StatusBar>
-
-      <Routes></Routes>
+      <StatusBar backgroundColor="#000070" barStyle="light-content" />
+      <Routes />
     </NavigationContainer>
   );
 }
+
+export default App;
+
+
+
+
 
 

@@ -15,45 +15,26 @@ export default function Cadastro() {
             <ScrollView contentContainerStyle={styles.scrollViewContent}>
                 <Animatable.View animation="fadeInUp" style={styles.containerForm}>
                     <Text style={styles.label}>Nome Completo</Text>
-                    <TextInput
-                        placeholder=""
-                        style={styles.input}
-                    />
+                    <TextInput placeholder="" style={styles.input} />
 
                     <Text style={styles.label}>CPF</Text>
-                    <TextInput
-                        placeholder="Digite seu CPF"
-                        style={styles.input}
-                    />
+                    <TextInput placeholder="" style={styles.input} />
 
                     <Text style={styles.label}>Data de Nascimento</Text>
-                    <TextInput
-                        placeholder="Digite sua data de nascimento"
-                        style={styles.input}
-                    />
+                    <TextInput placeholder="" style={styles.input} />
 
                     <Text style={styles.label}>Email</Text>
-                    <TextInput
-                        placeholder="Digite seu email"
-                        style={styles.input}
-                    />
+                    <TextInput placeholder="" style={styles.input} />
 
                     <Text style={styles.label}>Telefone</Text>
-                    <TextInput
-                        placeholder="Digite seu telefone"
-                        style={styles.input}
-                    />
+                    <TextInput placeholder="" style={styles.input} />
 
                     <Text style={styles.label}>Senha</Text>
-                    <TextInput
-                        placeholder="Digite sua senha"
-                        secureTextEntry={true} // Para esconder a senha
-                        style={styles.input}
-                    />
+                    <TextInput placeholder="" secureTextEntry={true} style={styles.input} />
 
                     <TouchableOpacity
                         style={styles.button}
-                        onPress={() => navigation.navigate('Signin')}>
+                        onPress={() => navigation.navigate('TabNavigator')}>
                         <Text style={styles.buttonText}>Cadastrar</Text>
                     </TouchableOpacity>
                     
@@ -66,7 +47,7 @@ export default function Cadastro() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#0F007D',
+        backgroundColor: '#000070',
     },
     containerHeader: {
         marginTop: '14%',
@@ -102,7 +83,7 @@ const styles = StyleSheet.create({
         fontSize: 16
     },
     button: {
-        backgroundColor: '#0F007D',
+        backgroundColor: '#000070',
         borderRadius: 50,
         paddingVertical: 12,
         width: '60%',
