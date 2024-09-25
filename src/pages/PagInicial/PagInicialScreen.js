@@ -37,15 +37,6 @@ export default function PagInicialScreen({ navigation }) {
                     <Text style={styles.plusIcon}>+</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity 
-                    style={styles.button}
-                    onPress={() => navigation.navigate('PagAbrigo')} // Navegação para PagAbrigo
-                >
-                    <View style={styles.buttonContent}>
-                        <Text style={styles.buttonText}>CADASTRAR ABRIGO</Text>
-                    </View>
-                    <Text style={styles.plusIcon}>+</Text>
-                </TouchableOpacity>
             </View>
         </View>
     );
